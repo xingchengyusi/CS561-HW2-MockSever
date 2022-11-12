@@ -13,7 +13,7 @@ const getData = function (request, response) {
     // }, 100)
 }
 
-app.get('/api/v1/weather', getData)
+app.get('/data/2.5/weather', getData)
 
 app.listen(port, function () {
     console.log('mock app listening at http://localhost:3000');
